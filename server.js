@@ -6,12 +6,13 @@ const mongoose = require('mongoose');
 
 mongoose
   .connect("mongodb+srv://Bekon0700:01856Be@cluster0.otfp7kl.mongodb.net/test",
-  {
+  // {
 
-    useNewUrlParser: "true",
-    useUnifiedTopology: "true"
+  //   useNewUrlParser: "true",
+  //   useUnifiedTopology: "true"
   
-  })
+  // }
+  )
   .then((con) => {
     console.log('DB Connection Successful');
   });
